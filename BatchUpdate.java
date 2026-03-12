@@ -12,7 +12,7 @@ public class BatchUpdate {
 		ResultSet rs = null;
 		PreparedStatement ps = null;
 
-		String url = "jdbc:db2://<ip>:<port>/<db>";
+		String url = "<jdbc-url>";
 
 		Connection con;
 		Statement stmt;

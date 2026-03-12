@@ -10,7 +10,7 @@ public class TransactionPairs {
 
 	public static void main(String args[]) {
 
-		String url = "jdbc:db2://<ip>:<port>/<db>";
+		String url = "<jdbc-url>";
 		Connection con = null;
 		Statement stmt;
 		PreparedStatement updateSales;

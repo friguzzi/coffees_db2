@@ -10,7 +10,7 @@ import java.sql.*;
 public class CreateSuppliers {
 
 	public static void main(String args[]) {
-		String url = "jdbc:db2://<ip>:<port>/<db>";
+		String url = "<jdbc-url>";
 	        
 		Connection con;
 		String createString;

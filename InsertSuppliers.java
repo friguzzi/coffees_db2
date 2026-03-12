@@ -10,7 +10,7 @@ public class InsertSuppliers {
 
 	public static void main(String args[]) {
 		  
-		String url = "jdbc:db2://<ip>:<port>/<db>";
+		String url = "<jdbc-url>";
 		Connection con;
 		Statement stmt;
 		String query = "select SUP_NAME, SUP_ID from SUPPLIERS";
